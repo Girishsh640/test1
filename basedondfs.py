@@ -15,7 +15,7 @@ while((xg,yg) not in cl and len(ol)!=0):
         break
     bfs_tree[(x,y)]=[]
     if(x<xc):
-        l1.append((xc,y))
+        l1.append((xc,yc))
     if(y<yc):
         l1.append((xc,yc))
     if(x>0):
