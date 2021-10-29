@@ -17,7 +17,7 @@ while((xg,yg) not in cl and len(ol)!=0):
     if(x<xc):
         l1.append((xc,y))
     if(y<yc):
-        l1.append((x,yc))
+        l1.append((xc,yc))
     if(x>0):
         l1.append((0,y))
     if(y>0):
